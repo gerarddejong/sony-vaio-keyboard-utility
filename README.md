@@ -8,7 +8,7 @@ The utility has only been tested on a Sony VAIO VGN-FE38GP runnig Elementary OS 
 
 Simply run the installer as follows:
 
-~~~~ $ sudo ./install.sh ~~~~
+``` $ sudo ./install.sh
 
 # Key Mapping
 
@@ -28,4 +28,4 @@ I still need to find uses for the magnification and sleep keys.
 
 #Acknowledgements
 
-This code is a modified version of the asus scripts already shipped with Elementary OS.
+This code is a modified version of the /etc/acpi/asus-keyboard-backlight.sh script already shipped with Elementary OS.
