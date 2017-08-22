@@ -1,0 +1,7 @@
+# /etc/acpi/events/sony-keyboard-s2
+# This is called when the user presses the key s2 
+# down button and calls /etc/acpi/sony-keyboard-wifi.sh for
+# further processing.
+
+event=sony/hotkey SNY5001:00 00000001 00000021
+action=/etc/acpi/sony-keyboard-wifi.sh toggle

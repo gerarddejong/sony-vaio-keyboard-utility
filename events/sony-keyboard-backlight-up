@@ -1,0 +1,7 @@
+# /etc/acpi/events/sony-keyboard-backlight-up
+# This is called when the user presses the key brightness 
+# down button and calls /etc/acpi/sony-keyboard-backlight.sh for
+# further processing.
+
+event=video/brightnessup BRTUP 00000086 00000000 K
+action=/etc/acpi/sony-keyboard-backlight.sh up

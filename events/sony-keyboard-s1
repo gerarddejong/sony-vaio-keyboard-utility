@@ -1,0 +1,7 @@
+# /etc/acpi/events/sony-keyboard-s1
+# This is called when the user presses the key s1 
+# down button and calls /etc/acpi/sony-keyboard-backlight.sh for
+# further processing.
+
+event=sony/hotkey SNY5001:00 00000001 00000020
+action=/etc/acpi/sony-keyboard-backlight.sh toggle
