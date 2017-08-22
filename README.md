@@ -2,7 +2,7 @@
 
 This utility enables Fn key support for Sony VAIO notebooks running linux. The utility uses ACPI deamon events to detect key presses and then runs the appropriate script to enable or diable a selected feature.
 
-The utility has only been tested on a * Sony VAIO VGN-FE38GP * runnig * Elementary OS * (Loki) and may need some modifcations in order to work on your machine but should run fine on Ubuntu.
+The utility has only been tested on a **Sony VAIO VGN-FE38GP** runnig **Elementary OS** (Loki) and may need some modifcations in order to work on your machine but should run fine on Ubuntu.
 
 ## Installation
 
