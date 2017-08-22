@@ -24,9 +24,21 @@ Don't forget to update the install.sh file inorder to make sure it copies any ne
 
 ## Mapping additional keys
 
-In order to add new keys you can run acpi_listen from your terminal and then press the key you want to map. There is also a righ "menu" key I need to find a purpose for.
+In order to add new keys you can run `acpi_listen` from your terminal and then press the key you want to map. 
 
-I still need to find uses for the magnification and sleep keys.
+I still need to find uses for the magnification and sleep keys. Here's an exmple of what the terminal output looks like when I press these keys:
+
+```
+$ acpi_listen
+sony/hotkey SNY5001:00 00000001 00000015
+button/zoom ZOOM 00000080 00000000 K
+sony/hotkey SNY5001:00 00000001 0000003b
+sony/hotkey SNY5001:00 00000001 00000017
+button/suspend SUSP 00000080 00000000 K
+sony/hotkey SNY5001:00 00000001 0000003b
+```
+
+Now map these keys so that they call a script copy one of the over event files and edit it. Copy the event you want to use to call a script and paste it in the `event=` line. Then add a new command to be called in the `action=` line.
 
 ## Acknowledgements
 
